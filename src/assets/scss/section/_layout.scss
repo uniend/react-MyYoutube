@@ -1,0 +1,26 @@
+#header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 260px;
+  height: 100vh;
+  background-color : var(--white);
+  z-index: 10000;
+}
+
+
+#main{
+ width: 100%;
+ max-width: 2000px; 
+ // min-width는 1200보다 작아지지 말라는것으로 브라우저가 줄어들면 1200으로 고정되어 반응형x max-width는 최대 1200d이라 브라우저 줄어들어도 100에 맞춰짐으로 반응형가능
+ min-height: 100vh;
+ background-color : red;
+ margin: 0 auto;
+ padding-left: 260px;
+}
+
+#footer{
+  text-align: center;
+  background-color: green;
+  padding: 20px 20px 20px 260px;
+}

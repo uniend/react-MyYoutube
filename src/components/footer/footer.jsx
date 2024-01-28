@@ -1,9 +1,13 @@
+import React from 'react'
 
 
 
 const Footer = () => {
   return(
-    <>Footer</>
+    <header id="footer" role="contentinfo">
+        footer
+    </header>
+
   )
 }
 

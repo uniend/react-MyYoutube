@@ -1,8 +1,11 @@
+import React from 'react'
 
 
 const Header = () => {
   return(
-    <>header</>
+  <header id="header" role="banner">
+      header
+  </header>
   )
 }
 
