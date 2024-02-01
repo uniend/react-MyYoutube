@@ -1,0 +1,41 @@
+.header_logo {
+  border-bottom: 1px solid var(--black100);
+  a {
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    em {
+      width: 40px;
+      height: 40px;
+      background-color: var(--red);
+      display: block;
+      margin-right: 10px;
+      
+      animation: ani 10s 1s ease-in-out infinite;
+    }
+    span {
+      font-size: 20px;
+      line-height: 1;
+      font-weight: 900;
+      text-transform: uppercase;
+    }
+  }
+}
+
+
+
+
+@keyframes ani {
+  0%{
+    transform:  rotate(0) scale(1);
+    border-radius: 0;
+  }
+  50%{
+    transform:  rotate(720deg) scale(0);
+    border-radius: 20px;
+  }
+  100%{
+    transform:  rotate(0deg ) scale(1);
+    border-radius: 0;
+  }
+}
